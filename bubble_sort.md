@@ -10,7 +10,7 @@ Procedure BubbleSort(array)
     n = length of array
     Repeat
         swapped = false
-        For i from 0 to n-2 do
+        For i from 0 to n do
             If array[i] > array[i+1] then
                 Swap array[i] and array[i+1]
                 swapped = true
