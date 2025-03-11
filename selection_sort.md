@@ -7,7 +7,7 @@ Selection sort psuedocode
 START
 INPUT n, i, j
 SelectionSort(array, n):
-    FOR i from 0 to n - 2 do:
+    FOR i from 0 to n do:
         minIndex = i          
         
        FOR j from i + 1 to n - 1 do:
