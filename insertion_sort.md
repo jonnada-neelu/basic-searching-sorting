@@ -8,7 +8,7 @@ Insertion sort Pseudocode
 START
 INPUT n, i, j, key
 InsertionSort(array, n):
-    for i from 1 to n - 1 do
+    for i from 1 to n do
         key = array[i]  
         j = i - 1
         
